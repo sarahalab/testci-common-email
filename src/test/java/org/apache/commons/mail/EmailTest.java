@@ -57,6 +57,7 @@ public class EmailTest {
 		@Test
 		public void testAddCc() throws Exception
 		{
+			//this is a test edit to push to git
 			email.addCc(TEST_EMAILS);
 			assertEquals(3, email.getCcAddresses().size());
 		}
